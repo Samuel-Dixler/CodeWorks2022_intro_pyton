@@ -2,32 +2,32 @@
 
 The most basic thing you can do with python is to use it as a calculator. Solve these using a python shell
 
-1001 + 110 =
-2354 + 300 =
-9*2 =
-(2*5)+5 =
-2*(3+2) =
-1 + (1/2) =
-1 - (1/2) =
+1001 + 110 = 1111
+2354 + 300 = 2654
+9*2 = 18
+(2*5)+5 = 15
+2*(3+2) = 10
+1 + (1/2) = 1.5
+1 - (1/2) = 0.5
 
 type() function lets you know the give python object.
 Write the responses from these lines of code for example:
 type("Hi") = <type 'str'>
 
 
-type('hello') =
+type('hello') = <class 'str'>
 type() =
-type(2) =
-type(3.14) =
-type([1,2,3]) =
+type(2) = <class 'int'>
+type(3.14) = <class 'float'>
+type([1,2,3]) = <class 'list'>
 type([1,2,3][]) =
-type([1,2,3][0]) =
-type([1,2,3][1]) =
+type([1,2,3][0]) = <class 'int'>
+type([1,2,3][1]) = <class 'int'>
 type([1,2,3][3]) =
 type([1,2,3][4]) =
 
 
-How do you get out of a python shell?
+How do you get out of a python shell? exit()
 
 
 open input_function.py and fix the errors. Make sure the code executes by running 'python input_function.py'. Once you have it working, copy and paste all the text right after the code is executed.
