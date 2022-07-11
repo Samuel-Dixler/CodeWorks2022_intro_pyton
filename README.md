@@ -32,20 +32,31 @@ How do you get out of a python shell? exit()
 
 open input_function.py and fix the errors. Make sure the code executes by running 'python input_function.py'. Once you have it working, copy and paste all the text right after the code is executed.
 
+print("Hello user what is your name?")
+usr_name = input()
+print("What is your favorite number?")
+usr_number = input()
+print("Tell me a riddle")
+input()
+print("That's a cool riddle " + usr_name + "! Thank you for telling me. Here is a box with " + usr_number + " choclates in it ")
+
+
 
 Finish the following code
 wages = 3000
 bills = 200
 rent = 600
 food = 200
-savings =
+savings = wages - bills - rent - food
 
 
 
 give the string city = 'Baltimore' write the code
 
-to print out the 4th character in the string
+to print out the 4th character in the string  
+  city = "baltimore"
+  print (city[3:4])
 
-to print out the last character in the string
+to print out the last character in the string  print (city[len(city)-1:])
 
-to print out a slice of the first 4 characters in the string
+to print out a slice of the first 4 characters in the string  print (city[:4])
