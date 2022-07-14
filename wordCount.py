@@ -11,9 +11,18 @@ print(par)
 list = par.split(' ')
 
 #the variable where you will store the dictionary file
-myDict = dict()
+myDict = {
+
+}
 
 #your code here
+for x in list:
+    if x in myDict:
+        a = myDict.get(x) + 1
+        myDict.update({x : a})
+    else:
+        myDict.update({x : 1})
+
 #------------------------------------#------------------------------------
 #Hints:
 #1) loop through the list
