@@ -1,8 +1,9 @@
-list = [0,1]
-
 def fib(n):
-    while int(n) > len(list):
-        list.append(int(list[-1]) + int(list[-2]))
+    if n == 0:
+        return 0
+    if n == 1:
+        return 1
+    if n > 1:
+        return fib(n-1) + fib(n-2)
 
-fib(input("How many Fibonacci Numbers do you want? "))
-print(list)
+print(fib(int(input("Which number in the Fibonacci Sequence do you want? "))-1))
